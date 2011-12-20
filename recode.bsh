@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#Swap .txt files with space separating into \newline separating .nsf files
+
+perl -p -e 's/\t/$1\n/g' < x.txt >x.nsf
+perl -p -e 's/\t/$1\n/g' < y.txt >y.nsf
