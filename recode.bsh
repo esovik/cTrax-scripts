@@ -4,3 +4,4 @@
 
 perl -p -e 's/\t/$1\n/g' < x.txt >x.nsf
 perl -p -e 's/\t/$1\n/g' < y.txt >y.nsf
+perl -p -e 's/\t/$1\n/g' < theta.txt >theta.nsf
